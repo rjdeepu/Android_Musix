@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Background color for each category and button-->
+<resources>
+    <color name="primary_color">#c0ca33</color>
+    <color name="primary_dark_color">#2f1d1a</color>
+    <color name="category_header">#ffb74d</color>
+    <color name="category_artists">#ffebee</color>
+    <color name="category_albums">#e1f5fe</color>
+    <color name="category_songs">#fff9c4</color>
+    <color name="category_purchase">#9ce2f2</color>
+    <color name="button_bg">#b39ddb</color>
+</resources>
+

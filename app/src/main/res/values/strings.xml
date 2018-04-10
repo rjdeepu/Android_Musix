@@ -1,0 +1,55 @@
+<resources>
+    <!-- Application Title -->
+    <string name="app_name">Musix</string>
+
+    <!-- Category List -->
+    <string name="category_artists">Artists</string>
+    <string name="category_albums">Albums</string>
+    <string name="category_songs">Songs</string>
+    <string name="category_now_playing">Now Playing</string>
+    <string name="category_purchase">Purchase</string>
+
+    <!-- Button Text -->
+    <string name="artists_to_albums">To Albums</string>
+    <string name="albums_to_songs">To Songs</string>
+    <string name="songs_to_purchase">To Purchase</string>
+    <string name="songs_to_now_playing">Now Playing</string>
+    <string name="purchase_to_home">Home</string>
+
+    <!-- Description of TextView for header and all Categories -->
+    <string name="main_hdr">Library</string>
+    <string name="main_desc">This is the home page of the music player once the app is opened.
+        This has five activities including a button for Now Playing, each opens a new page
+        to display the appropriate tasks. \n
+        We can include more activities like Playlists, Download Music, Recently Added."</string>
+
+    <string name="artists_desc">This will list down all the Artists for the songs
+    who composed in alphabetical order for easy lookup. To Albums Button will open
+        Albums Activity.</string>
+
+    <string name="albums_desc">This list will group songs based on the Albums/Movies it
+    featured. To Songs Button will open Songs Activity.</string>
+
+    <string name="songs_desc">This will have the total list of songs in alphabetical order. \n
+    To Purchase Button will open Purchase Activity.</string>
+
+    <string name="now_playing_desc">This Activity will have the song which is currently playing
+        with Play, pause, Stop buttons. \n \n
+        We can use MediaPlayer Class to Play music.
+    </string>
+
+    <string name="purchase_desc">This Activity is where user can pay and download the songs. \n
+        We can use this API to proceed with payment: \n \n
+        If we prefer to selectively compile only the APIs we need,
+        then open the build.gradle file in the app module and add the following
+        to the dependencies block. \n \n
+        dependencies {
+        compile \'com.google.android.gms:play-services-wallet:12.0.0\'
+        compile \'com.android.support:support-v4:24.1.1\'
+        compile \'com.android.support:appcompat-v7:24.1.1\'
+        } \n \n
+
+        In-app Billing API is used to integrate in-app Billing to the apps.
+        We can use this In-app Billing for One-time Billing and for recurring, automated Billing.
+    </string>
+</resources>

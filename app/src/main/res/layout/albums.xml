@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Linear Layout with TextView and Button for Albums Category -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shabnam.musix.AlbumsActivity">
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_albums" />
+
+    <Button
+        android:id="@+id/goToSongs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/button_bg"
+        android:text="@string/albums_to_songs" />
+</LinearLayout>
